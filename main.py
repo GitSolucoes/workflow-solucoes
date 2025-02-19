@@ -130,7 +130,9 @@ WORKFLOW_IDS = {
 
 
 
-
+@app.route('/')
+def home():
+    return 'Resposta com status 200', 200
 
 
 
